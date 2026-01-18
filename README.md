@@ -223,6 +223,19 @@ gentle-rain-clone/
 5. Accessibility ARIA labels expansion
 6. Service worker for offline support
 
+## Live Demo & Screen Recording
+
+🌐 **Live Website:** [View Live Demo](https://gentle-rain-clone.vercel.app)
+
+📹 **Screen Recording:** [Watch Demo Video](https://drive.google.com/file/d/1yzc34htuWpzyicgh8-7qRh868masIl6b/view?usp=sharing)
+
+The screen recording showcases:
+- Parallax scrolling animation
+- Flip card hover effects
+- Horizontal scroll section
+- Sticky navigation
+- Responsive mobile design
+
 ## Deployment
 
 ### Deploy to GitHub Pages
