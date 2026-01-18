@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gentlerain.ai Clone</title>
+
+        <!--Linking CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- AOS(easy scroll animations)-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- GSAP(greenSock Animation platform) + ScrollTrigger( GSAP pugin) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Rellax(parallax library)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
+    </head>
+
+    <body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Gentlerain Clone</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#features">Features</a>
+            <a href="#product">Product</a>
+            <a href="#business">Business</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <!--Parallax layers-->
+        <img src="assets/images/layer4.png" class="rellax layer layer-0" data-rellax-speed="-4">
+        <img src="assets/images/layer1.png" class="rellax layer layer-1" data-rellax-speed="-3">
+        <img src="assets/images/layer2.png" class="rellax layer layer-2" data-rellax-speed="-2">
+        <img src="assets/images/layer3.png" class="rellax layer layer-3" data-rellax-speed="-1">
+
+        <!-- Hero Content -->
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="title">Your Gentle Productivity</h1>
+            <p class="subtitle rotate-text">Leverage AI to grow valuable skills through <span id="rotating-word">Practice</span></p>
+        </div>
+    </section>
+
+   <!-- Features Section -->
+<section id="features" class="section features-section">
+    <h2 class="section-title" data-aos="fade-up">Features</h2>
+
+    <div class="features-grid">
+        
+        <!-- Card 1 -->
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <h3>Smart Insights</h3>
+                </div>
+                <div class="flip-back">
+                    <p>Get real-time insights to improve productivity.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flip-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <h3>AI Assistance</h3>
+                </div>
+                <div class="flip-back">
+                    <p>Leverage modern AI to optimize your tasks.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flip-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <h3>Parallax Magic</h3>
+                </div>
+                <div class="flip-back">
+                    <p>Beautiful parallax layers for smooth scrolling.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="flip-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <h3>Horizontal Scroll</h3>
+                </div>
+                <div class="flip-back">
+                    <p>GSAP-powered horizontal movement effects.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+  <!-- Product Section -->
+<section id="product" class="section product-section">
+    <h2 class="section-title" data-aos="fade-up">Our Product</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card" data-aos="fade-up">
+            <div class="product-icon">📊</div>
+            <h3>Intuitive Dashboard</h3>
+            <p>Get a clear overview of performance, insights, and workflows — all in one place.</p>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="product-icon">⚙️</div>
+            <h3>AI Automation</h3>
+            <p>Automate repetitive tasks and focus on what matters most.</p>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-icon">📈</div>
+            <h3>Real-time Analytics</h3>
+            <p>Access detailed analytics to measure progress and track productivity.</p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Horizontal Scroll Section -->
+<section id="scroll-x" class="scroll-section">
+    <div class="scroll-container">
+        <div class="panel">
+            <div class="panel-title">Practice</div>
+            <div class="panel-description">Practice one scene at a time through immersive story of a fictional company</div>
+        </div>
+        <div class="panel">
+            <div class="panel-title">Upskill</div>
+            <div class="panel-description">Upskill by nailing true-to-life challenging work situations</div>
+        </div>
+        <div class="panel">
+            <div class="panel-title">Play</div>
+            <div class="panel-description">Play with your co-worker in multiplayer mode</div>
+        </div>
+        <div class="panel">
+            <div class="panel-title">Improve</div>
+            <div class="panel-description">Improve your skills through feedback and continuous learning</div>
+        </div>
+    </div>
+</section>
+  <!-- Business Section -->
+<section id="business" class="section business-section">
+    <h2 class="section-title" data-aos="fade-up">Built for Businesses</h2>
+
+    <div class="business-grid">
+
+        <div class="business-card" data-aos="fade-up">
+            <div class="biz-icon">📈</div>
+            <h3>Scale Smartly</h3>
+            <p>Leverage automation and smart insights to grow your operations smoothly.</p>
+        </div>
+
+        <div class="business-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="biz-icon">🔒</div>
+            <h3>Secure & Reliable</h3>
+            <p>Your workflows, data, and operations run safely with enterprise-grade security.</p>
+        </div>
+
+        <div class="business-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="biz-icon">⚡</div>
+            <h3>Boost Productivity</h3>
+            <p>Improve team performance with powerful tools and insights designed for efficiency.</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up">
+        <p>© 2026 Gentlerain Clone</p>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Your JS -->
+    <script src="scripts/main.js"></script>
+
+    </body>
